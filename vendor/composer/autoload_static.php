@@ -491,8 +491,14 @@ class ComposerStaticInit43fbe42db68ff53e7794525df7e39d9c
     );
 
     public static $classMap = array (
+        'App\\Certidao' => __DIR__ . '/../..' . '/app/Certidao.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
+        'App\\Contrato' => __DIR__ . '/../..' . '/app/Contrato.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+        'App\\Http\\Controllers\\BaseController' => __DIR__ . '/../..' . '/app/Http/Controllers/BaseController.php',
+        'App\\Http\\Controllers\\CartorioController' => __DIR__ . '/../..' . '/app/Http/Controllers/CartorioController.php',
+        'App\\Http\\Controllers\\CertidaoController' => __DIR__ . '/../..' . '/app/Http/Controllers/CertidaoController.php',
+        'App\\Http\\Controllers\\ContratoController' => __DIR__ . '/../..' . '/app/Http/Controllers/ContratoController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\loginController' => __DIR__ . '/../..' . '/app/Http/Controllers/loginController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
@@ -512,6 +518,7 @@ class ComposerStaticInit43fbe42db68ff53e7794525df7e39d9c
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
+        'App\\Tabeliao' => __DIR__ . '/../..' . '/app/Tabeliao.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
         'ArithmeticError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/ArithmeticError.php',
         'Asm89\\Stack\\Cors' => __DIR__ . '/..' . '/asm89/stack-cors/src/Asm89/Stack/Cors.php',
